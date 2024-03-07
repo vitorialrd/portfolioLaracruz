@@ -20,6 +20,7 @@ header .header_left p {
 header .header_right .header_image {
     position: relative;
     line-height: 0;
+    box-shadow: 1px 1px 5px 2px var(--tertiary-color);
 }
 header .header_right .header_image::after {
     background-color: var(--dark-blue);
@@ -29,9 +30,9 @@ header .header_right .header_image::after {
     height: 100%;
     border: 1px solid black;
     position: absolute;
-    top: -0.6rem;
-    right: -1.5rem;
-    border-radius: 1rem;
+    top: -2.6rem;
+    right: -2.2rem;
+    border-radius: 3px;
     z-index: -1;
 }
 header .header_right .header_image .lara{
