@@ -1,0 +1,13 @@
+:root {
+  --white: #ffffff;
+  --gray: #d9d9d9;
+  --dark-blue: #11395a9f;
+  --primary-color: #2184d4;
+  --secondary-color: #0059ff;
+  --dark-secondary-color: #0546a8;
+  --tertiary-color: #6793d4;
+  --light-tertiary-color: #f3f6fb;
+  --text-color: #7dabe4;
+
+  --font-family: 'poppins';
+}
