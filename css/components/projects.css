@@ -22,13 +22,15 @@
 }
 
 .projects ul li:not(:last-of-type){
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
 }
 
 .projects ul li .image img{
     width: 100%;
     height: auto;
 }
+
+
 /*.projects ul li .projects_info{
     max-width: 47rem;
 }
