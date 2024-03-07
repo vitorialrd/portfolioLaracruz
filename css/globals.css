@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'poppins';
-  src: url(../fontes/Poppins/Poppins-Light.ttf);
-}
-
- 
- 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
