@@ -29,3 +29,16 @@
     color: var(--tertiary-color);
 }
 
+@media only screen and (max-width: 750px){
+
+    .navbar .navbar_content .logoL{
+        width: 50px;
+        margin-right: 1rem;
+    }
+
+    .navbar .navbar_content .navbar_links li a{
+        font-size: small;
+        position: relative;
+        display: bloxk;
+    }
+}

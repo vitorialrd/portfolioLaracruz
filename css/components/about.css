@@ -29,3 +29,27 @@
     flex: 1;
     max-width: 66rem;
 }
+
+
+
+@media only screen and (max-width: 750px) {
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about .about_left ul li{
+        font-size: smaller;
+        display: inline-flex;
+        margin-left: 1rem;
+    }
+    .about .about_left {
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .about .about_right p{
+        margin: 2rem auto 4 rem;
+    
+    }
+}

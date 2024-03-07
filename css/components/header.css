@@ -31,7 +31,7 @@ header .header_right .header_image::after {
     border: 1px solid black;
     position: absolute;
     top: -2.6rem;
-    right: -2.2rem;
+    right: -1.2rem;
     border-radius: 3px;
     z-index: -1;
 }
@@ -46,3 +46,19 @@ header .header_right .header_image .background{
     right: -2rem;
     z-index: -1;
 }
+
+@media only screen and (max-width: 750px) {
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .header_left p{
+        margin: 2rem auto 4 rem;
+    
+    }
+
+
+}
+
+
