@@ -1,5 +1,5 @@
 .project {
-    margin-bottom: 16rem;
+
     scroll-margin-top: 15rem;
 }
 
@@ -9,10 +9,12 @@
     margin: 0 auto 6rem;
 
 }
+
 .projects ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
     gap: 4rem;
 }
 .projects ul li.projects_reversed-list {
@@ -25,8 +27,6 @@
 
 .projects ul li .image img{
     width: 100%;
-    min-width: 40rem;
-    max-width: 47rem;
     height: auto;
 }
 /*.projects ul li .projects_info{
