@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: monospace;
+    font-family: sans-serif;
   }
   
   html {
